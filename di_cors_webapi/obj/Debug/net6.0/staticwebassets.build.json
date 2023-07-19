@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BjehMeDS30ne/KSk0eHnFrfR1n7T8mVCdIJgxygUXWY=",
+  "Source": "di_cors_webapi",
+  "BasePath": "_content/di_cors_webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

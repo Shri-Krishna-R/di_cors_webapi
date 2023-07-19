@@ -1,0 +1,18 @@
+View -> SQL Server Object Explorer
+
+create a new local db by clicking on DATABASES. right click add DB.
+
+after adding DB, create tables and insert data.
+
+after insert data, add 4 nuget packages for EntityFrameworkCore.
+
+				Microsoft.EntityFrameworkCore.Tools
+				Microsoft.EntityFrameworkCore.Design
+				Microsoft.EntityFrameworkCore
+				Microsoft.EntityFrameworkCore.SqlServer
+
+after adding the 4 nuget packages, open nuget console and type Sc'tab' and select Scaffold-DbContext
+
+under that change the server and db name enter the below to scaffold.
+
+Scaffold-DbContext "server=(localdb)\ProjectModels;database=Shopping;integrated security=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF
